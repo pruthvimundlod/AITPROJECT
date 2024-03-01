@@ -1,0 +1,139 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container
+{
+    width: 80%;
+    min-height: 100;
+    border: 2px solid #000;
+    margin: auto;
+}
+.header-text-menu
+{
+    width: 100%;
+    min-height: 60px;
+}
+.text{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.text h1{
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color:burlywood;
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+.menu input{
+    width: 25%;
+    float: right;
+    
+}
+.menu a{
+    text-decoration: none;
+    padding: 5px;
+}
+.menu a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.main-content-sidebar{
+    width: 100%;
+    min-height: 250px;
+    margin-top: 5px;
+   
+}
+.main-content-sidebar .content{
+    width: 55%;
+    height: 100%;
+    border: solid 2px red;
+    float: left;
+    padding: 10px;
+    margin-left: 5px;
+}
+.main-content-sidebar .sidebar{
+    width: 40%;
+    height: 100%;
+    float:right ;
+}
+.content button{
+    background-color: aqua;
+}
+.content a{
+    text-decoration: none;
+    color:red;
+}
+.body-con{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
+}
+.body-con .holding{
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+}
+.holding .p1{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.holding .p2{
+    float:right;
+    width: 45%;
+    height: 100%;
+}
+.body-con1{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.body-con1 .adv{
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+}
+.adv .p1{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.adv .p2{
+    float:right;
+    width: 45%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+   background-color: aqua;
+   margin-top: 5px;
+}
+.footer h1{
+    text-align: center;
+    padding: 10px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
